@@ -1,0 +1,32 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif, 'Rubik', sans-serif;
+    font-size: 14px;
+    background: #529e9e;
+    color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 20px;
+        background-color: #b48ca2;
+        color: #000;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 30px;
+        }
+        
+    /* .flexible-layout {
+        justify-content: space-between;
+        align-items: center;
+    } */
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto 500px;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
+}
